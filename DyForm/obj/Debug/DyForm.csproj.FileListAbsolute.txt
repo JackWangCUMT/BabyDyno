@@ -1,0 +1,8 @@
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\bin\Debug\DyForm.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\obj\Debug\DyForm.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\bin\Debug\DyForm.exe
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\bin\Debug\DyForm.pdb
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\bin\Debug\Newtonsoft.Json.dll
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\bin\Debug\Newtonsoft.Json.xml
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\obj\Debug\DyForm.exe
+c:\users\admin\documents\visual studio 2015\Projects\DyForm\DyForm\obj\Debug\DyForm.pdb

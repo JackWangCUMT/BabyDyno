@@ -1,0 +1,91 @@
+﻿{
+			  "Controls": [
+			    {
+					"Type": "text",
+			      "ID": "CreatedBy",				  
+			      "Label": "Created by",
+			      "Value": "",
+			      "Required": true,
+			      "Enabled": true,
+			      "Matches": "[a-z ]+",
+				  "MaxLength":20,
+			      "TabIndex": 1
+			    },
+			       {
+					"Type": "text",
+			      "ID": "Description",
+			      "Label": "Description by",
+			      "Value": "",
+			      "Required": true,
+			      "Enabled": true,
+			      "Matches": "[a-z ]+",
+				  "MaxLength": 20,
+			      "TabIndex": 2
+			    },
+				{
+					"Type": "number",
+			      "ID": "Severity",
+			      "Label": "Severity",
+			      "Value": "2",
+				  "Max":5,
+				  "MaxLength":2,
+			      "Required": true,
+			      "Enabled": true,
+			      "Matches": null,
+			      "TabIndex": 3
+			    },
+				{
+					"Type": "enumerated",
+			      "ID": "Status",
+			      "Label": "Status",
+			      "Value": ["CANCELLED", "COMPLETED"],
+			      "Required": true,
+			      "Enabled": true,
+			      "Matches": null,
+			      "TabIndex": 4
+			    },
+				{
+				  "Type": "enumerated",
+			      "ID": "CancelledReason",
+			      "Label": "Cancelled Reason",
+			      "Value": ["ENDUSER", "OTHERS"],
+			      "Required": false,
+			      "Enabled": true,
+			      "Matches": null,
+			      "TabIndex": 5
+			    },
+				{
+					"Type": "text",
+			      "ID": "CancelledOtherDescription",
+			      "Label": "CancelledOtherDescription",
+			      "Value": null,
+			      "Required": false,
+			      "Enabled": true,
+				  "Matches": "[a-z ]+",
+				  "MaxLength":10,
+			      "TabIndex": 6
+			    },
+				{
+				  "Type": "text",
+			      "ID": "Comments",
+			      "Label": "Comments",
+			      "Value": null,
+			      "Required": true,
+			      "Enabled": true,
+			      "Matches": "[a-z ]+",
+				  "MaxLength":20,
+			      "TabIndex": 7
+			    },
+				{
+					"Type": "conjunctive",
+					"Label": "",
+					"ID": "Cx",
+					"Model" : "*Description_ *CreatedBy_ "
+				}
+				
+
+				
+			  ],
+			  "Name": "Bug Report",
+			  "ID": "1"
+			}
